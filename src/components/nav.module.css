@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 2px 10px; */
+  background-color: rgb(35, 47, 63);
+  color: white;
+  font-size: 16px;
+  border: 1px solid gold;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.mainNav,
+.burgerMenu,
+.prime {
+  display: flex;
+}
+
+.mainNav li {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.mainNav li:hover,
+.app:hover {
+  border: 0.1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.burgerMenu div {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-right: 3px;
+  margin-top: -1px;
+}
+
+.app img {
+  height: 38px;
+}
+
+.burgerMenu {
+  font-weight: bold;
+}
+
+.arrows {
+  color: rgb(167, 172, 178);
+  font-size: 20px;
+}

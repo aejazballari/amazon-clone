@@ -1,0 +1,43 @@
+.sideHeader {
+  display: flex;
+  color: white;
+  padding: 2px 30px;
+  background-color: rgb(35, 47, 62);
+}
+
+.sideHeader h2 {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.user {
+  font-size: 35px;
+}
+
+.category li {
+  display: flex;
+  color: rgb(54, 54, 54);
+  line-height: 2.5;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+h3,
+li {
+  padding: 2px 30px;
+  text-transform: capitalize;
+}
+
+h3 {
+  margin-top: 10px;
+}
+.sideNav {
+  width: 330px;
+  height: 100vh;
+  overflow-y: scroll;
+  box-shadow: 1px 1px 10px 1000000px rgba(0, 0, 0, 0.4);
+}
+
+hr {
+  border: 1px solid #cccccc;
+}
