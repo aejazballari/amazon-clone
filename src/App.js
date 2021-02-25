@@ -1,10 +1,19 @@
+import React from "react";
+import ProductCard from "./components/ProductCard";
+import { useState, useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
+
+
+
 function App() {
+  
   return (
     <div className="App">
-      <h1>Amazon-clone</h1>
-      <div></div>
+      
+      <ProductCard  />
     </div>
   );
 }
 
-export default App;
+
+export default App ;
