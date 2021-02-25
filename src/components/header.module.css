@@ -1,0 +1,89 @@
+.header__div {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  padding-top: 13px;
+}
+
+.amazon__logo {
+  width: 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo a {
+  display: flex;
+  position: relative;
+  color: white;
+  width: 132px;
+}
+
+.in {
+  padding-top: 10px;
+  position: absolute;
+  right: 18px;
+  font-size: 18px;
+}
+
+.address {
+  display: flex;
+}
+
+.location {
+  padding-top: 18px;
+}
+
+.input__div {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 45px;
+  outline-color: orange;
+  font-size: 20px;
+}
+
+.input__div button {
+  height: 40px;
+  width: 40px;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+  outline-color: orange;
+}
+
+.search {
+  height: 40px;
+  position: absolute;
+  background-color: rgb(254, 189, 105);
+  right: 0;
+  width: 40px;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.country {
+  display: flex;
+}
+
+.sign__in,
+.cart {
+  display: flex;
+}
+
+.cart span {
+  font-size: 40px;
+}
+
+.cart h4 {
+  padding-top: 20px;
+}

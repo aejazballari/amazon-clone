@@ -1,0 +1,38 @@
+.slide {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide div {
+  width: 100%;
+  cursor: pointer;
+}
+
+.slide img {
+  display: block;
+  width: 100vw;
+  margin: 0px;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.btn__container {
+  position: absolute;
+  top: 34%;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn__container button {
+  font-size: 45px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.left {
+  text-shadow: 2px 2px white;
+}

@@ -1,0 +1,87 @@
+.toTop {
+  background-color: rgb(55, 71, 90);
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.toTop:hover {
+  background-color: rgb(73, 89, 109);
+}
+
+footer {
+  color: white;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  line-height: 1.4;
+}
+
+.footer__info a,
+.footer__countries a {
+  color: rgb(204, 204, 204);
+  text-decoration: none;
+}
+
+.footer__info a:hover,
+.footer__countries a:hover {
+  text-decoration: underline;
+}
+.footer__info li {
+  list-style-type: none;
+}
+
+.footer__info h4 {
+  margin-left: 30px;
+}
+
+.info__section {
+  background-color: rgb(35, 47, 62);
+}
+
+.footer__countries ul {
+  display: flex;
+}
+
+.country {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.country li {
+  margin-left: 0px;
+  padding-left: 0px;
+  font-size: 12px;
+}
+
+.other__services {
+  background-color: rgb(19, 26, 34);
+}
+
+.other__services article {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  flex-wrap: wrap;
+}
+
+.other__services article div {
+  width: 100px;
+  margin: 20px 50px;
+}
+.other__services h5 a {
+  color: white;
+}
+
+.other__services p a {
+  color: lightgrey;
+  font-size: 10px;
+}
+
+.other__services a {
+  text-decoration: none;
+}

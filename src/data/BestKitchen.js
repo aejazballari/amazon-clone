@@ -1,0 +1,16 @@
+export default [
+  "https://m.media-amazon.com/images/I/41cVgYgAKpL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/315AO4OdIZL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41BcmBwnzJL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41CqaA4KDzL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/31ZBLC08LLL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41AlRp42IYL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/31oeEbMloNL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41bx6m0YtZL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41dmaryEP5L._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41E3ejzmCPL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/31MJQd4G-uL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/31OCZqdW2RL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/41nvh+EEAxL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/31peh6pTVKL._AC_SY200_.jpg",
+];

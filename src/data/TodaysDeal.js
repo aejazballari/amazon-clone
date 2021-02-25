@@ -1,0 +1,92 @@
+export default [
+  {
+    id: "1",
+    img: "https://m.media-amazon.com/images/I/41OBf52bnOL.__AC_SY200_.jpg",
+    minPrice: "9,990.00",
+    maxPrice: "11,990.00",
+  },
+  {
+    id: "2",
+    img: "https://m.media-amazon.com/images/I/41VPAkJ3v-L.__AC_SY200_.jpg",
+    minPrice: "349.00",
+    maxPrice: "4,739.00",
+  },
+  {
+    id: "3",
+    img: "https://m.media-amazon.com/images/I/41IUglR391L.__AC_SY200_.jpg",
+    minPrice: "140.00",
+    maxPrice: "2,049.00",
+  },
+  {
+    id: "4",
+    img: "https://m.media-amazon.com/images/I/51JU8ZlLATL.__AC_SY200_.jpg",
+    minPrice: "49.00",
+    maxPrice: "1,299.00",
+  },
+  {
+    id: "5",
+    img: "https://m.media-amazon.com/images/I/51LuEh2PmiL.__AC_SY200_.jpg",
+    minPrice: "124.00",
+    maxPrice: "11,992.00",
+  },
+  {
+    id: "6",
+    img: "https://m.media-amazon.com/images/I/41VloMir72L.__AC_SY200_.jpg",
+    minPrice: "279.00",
+    maxPrice: "3,549.00",
+  },
+  {
+    id: "7",
+    img: "https://m.media-amazon.com/images/I/41Umy9+gssL.__AC_SY200_.jpg",
+    minPrice: "189.00",
+    maxPrice: "10,236.00",
+  },
+  {
+    id: "8",
+    img: "https://m.media-amazon.com/images/I/41R3qlR7F6L.__AC_SY200_.jpg",
+    minPrice: "172.00",
+    maxPrice: "849.00",
+  },
+  {
+    id: "9",
+    img: "https://m.media-amazon.com/images/I/41cDJCiO6TL.__AC_SY200_.jpg",
+    minPrice: "139.00",
+    maxPrice: "10,949.00",
+  },
+  {
+    id: "10",
+    img: "https://m.media-amazon.com/images/I/51r5HRiyGuL.__AC_SY200_.jpg",
+    minPrice: "128.00",
+    maxPrice: "1,458.00",
+  },
+  {
+    id: "11",
+    img: "https://m.media-amazon.com/images/I/41VDAAe67HL.__AC_SY200_.jpg",
+    minPrice: "259.00",
+    maxPrice: "599.00",
+  },
+  {
+    id: "12",
+    img: "https://m.media-amazon.com/images/I/31348z5DSJL.__AC_SY200_.jpg",
+    minPrice: "64,900.00",
+    maxPrice: "69,900.00",
+  },
+  {
+    id: "13",
+    img: "https://m.media-amazon.com/images/I/31DJGuID+GL.__AC_SY200_.jpg",
+    minPrice: "99.00",
+    maxPrice: "4,499.00",
+  },
+  {
+    id: "14",
+    img: "https://m.media-amazon.com/images/I/41OV9XtxCVL.__AC_SY200_.jpg",
+    minPrice: "389.00",
+    maxPrice: "899.00",
+  },
+  {
+    id: "15",
+    img: "https://m.media-amazon.com/images/I/31Lj4LohusL.__AC_SY200_.jpg",
+    minPrice: "549.00",
+    maxPrice: "13,999.00",
+  },
+];

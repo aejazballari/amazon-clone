@@ -16,23 +16,26 @@
 
 .category li {
   display: flex;
-  color: rgb(54, 54, 54);
+  color: rgb(65, 65, 65);
   line-height: 2.5;
   font-size: 1rem;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 h3,
 li {
   padding: 2px 30px;
   text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
 }
 
 h3 {
   margin-top: 10px;
 }
 .sideNav {
-  width: 330px;
+  width: 350px;
   height: 100vh;
   overflow-y: scroll;
   box-shadow: 1px 1px 10px 1000000px rgba(0, 0, 0, 0.4);
@@ -40,4 +43,13 @@ h3 {
 
 hr {
   border: 1px solid #cccccc;
+}
+
+.sideNav li:hover {
+  color: black;
+  background-color: rgb(197, 193, 193);
+}
+
+li div {
+  font-size: 20px;
 }

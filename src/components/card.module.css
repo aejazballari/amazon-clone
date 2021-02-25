@@ -1,0 +1,56 @@
+.productCard {
+  overflow-x: scroll;
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+}
+.items {
+  display: flex;
+}
+.title {
+  display: flex;
+}
+
+.title h1 {
+  margin-right: 10px;
+}
+
+.title a {
+  padding-top: 6px;
+}
+.productCard p {
+  width: 180px;
+}
+
+.productCard div {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.productCard img {
+  margin: 5px auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  /* visibility: hidden; */
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+.productCard div:hover {
+  /* overflow-x: scroll; */
+}
