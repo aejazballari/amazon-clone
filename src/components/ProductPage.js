@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductPage.css";
+import styles from "./ProductPage.module.css";
 
 
 
@@ -7,13 +7,13 @@ const ProductPage=()=>{
     return(
     <div>
        
-           <div className="smallline">
+           <div className={styles.smallline}>
                 <a>Furniture›</a>
                 <a>Living Room Furniture›</a>
                 <a>Wall Shelves›</a>
                 <a>Ss Arts Engineered Wood Wall Mount WiFi Router Stand/Rack</a>
            </div>
-           <div className="overall">
+           <div className={styles.overall}>
            {/* 3 div starts here */}
            <div>
               {/* <div className="butimg">
@@ -29,49 +29,49 @@ const ProductPage=()=>{
                 </div> */}
             </div>
            <div>
-             <img src="https://images-na.ssl-images-amazon.com/images/I/51zyIctEERL._SX679_.jpg"alt="" className="heroimg"/>
+             <img src="https://images-na.ssl-images-amazon.com/images/I/51zyIctEERL._SX679_.jpg"alt="" className={styles.heroimg}/>
              
            </div>
 
-           <div className="thrddiv">
-               <h4 className="title">Ss Arts Engineered Wood Wall Mount WiFi Router
+           <div className={styles.thrddiv}>
+               <h4 className={styles.title}>Ss Arts Engineered Wood Wall Mount WiFi Router
                Stand/Rack </h4>
-               <a className="brand">Brand: SS ARTS</a>
+               <a className={styles.brand}>Brand: SS ARTS</a>
                <hr></hr>
-              <div className="rates">
-             <div className="fir">
-               <p className="mamuli">M.R.P.:</p>
-               <p className="squash">	₹ 1,499.00</p>
+              <div className={styles.rates}>
+             <div className={styles.fir}>
+               <p className={styles.mamuli}>M.R.P.:</p>
+               <p className={styles.squash}>	₹ 1,499.00</p>
                </div>
-               <div className="dealprices">
-               <p className="mamuli">Deal Price:</p>
-               <p className="bigred">₹ 790.00</p>
+               <div className={styles.dealprices}>
+               <p className={styles.mamuli}>Deal Price:</p>
+               <p className={styles.bigred}>₹ 790.00</p>
                </div>
-               <div className="fir">
-               <p className="mamuli">You Save:</p>
-               <p className="red">₹ 790.00 (47%)</p>
+               <div className={styles.fir}>
+               <p className={styles.mamuli}>You Save:</p>
+               <p className={styles.red}>₹ 790.00 (47%)</p>
                </div>
               
-               <p className="inc">	Inclusive of all taxes</p>
-               <div className="fir1">
-               <p className="mamulifree">FREE delivery:</p>
-               <p className="mamu">Monday, March 1</p>
-               <a className="a">Details</a>
+               <p className={styles.inc}>	Inclusive of all taxes</p>
+               <div className={styles.fir1}>
+               <p className={styles.mamulifree}>FREE delivery:</p>
+               <p className={styles.mamu}>Monday, March 1</p>
+               <a className={styles.a}>Details</a>
                </div>
                </div>
 
            </div>
            <div>
-               <div className="fir">
+               <div className={styles.fir}>
                {/* <a  className="ab">Share</a> */}
 
                
                </div>
-               <div className="border">
-                   <div className="quality">
+               <div className={styles.border}>
+                   <div className={styles.quality}>
                        <form>
-                           <label className="gap">Quality</label>
-                           <select className="sel">
+                           <label className={styles.gap}>Quality</label>
+                           <select className={styles.sel}>
                                <option>1</option>
                                <option>2</option>
                                <option>3</option>
@@ -89,24 +89,24 @@ const ProductPage=()=>{
                            </select>
                        </form>
                    </div>
-                   <div className="below">
-                   <button className="
-                   addbut">Add to Cart</button>
-                   <button className="buybut">Buy Now</button>
+                   <div className={styles.below}>
+                   <button className={styles.
+                   addbut}>Add to Cart</button>
+                   <button className={styles.buybut}>Buy Now</button>
 
-                   <a className="sec">Secure transaction </a>
+                   <a className={styles.sec}>Secure transaction </a>
                    <hr/>
-                   <a className="sec">Select delivery location</a>
+                   <a className={styles.sec}>Select delivery location</a>
                    <hr/>
-                   <button className="lstbut">Add to Wish List</button>
+                   <button className={styles.lstbut}>Add to Wish List</button>
                    </div>
                </div>
-               <div className="smalbord">
-                   <p className="
-                   mamu">New (2) from</p>
-                   <div className="fir2">
-                    <p className="red">₹ 790.00</p> 
-                        <p className="dot">FREE Delivery.</p>
+               <div className={styles.smalbord}>
+                   <p className={styles.
+                   mamu}>New (2) from</p>
+                   <div className={styles.fir2}>
+                    <p className={styles.red}>₹ 790.00</p> 
+                        <p className={styles.dot}>FREE Delivery.</p>
                         </div>
                </div>
            </div>
