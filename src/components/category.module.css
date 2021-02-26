@@ -1,0 +1,82 @@
+.category__section > div {
+  background-color: white;
+  margin: 20px;
+}
+
+.categoryImg__div {
+  background-color: gray;
+  position: relative;
+}
+
+.category__img {
+  display: block;
+  width: 240px;
+  opacity: 0.9;
+  object-fit: cover;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.category__section p {
+  width: 230px;
+}
+
+.category__title {
+  line-height: 1.3;
+  font-size: 14px;
+  height: 35px;
+  overflow: hidden;
+}
+
+.category {
+  margin: 0px auto;
+}
+.category__section {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.goldstar {
+  color: gold;
+  font-size: 20px;
+}
+
+.rating {
+  display: flex;
+  width: 100px;
+}
+
+.deal {
+  background-color: rgb(196, 85, 0);
+  color: white;
+  padding: 2px;
+  margin: 2px;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.price small {
+  vertical-align: top;
+  font-size: 15px;
+}
+
+.price {
+  margin: 5px;
+}
+.rupee {
+  font-size: 22px;
+}
+
+i {
+  background-color: rgb(62, 70, 80);
+  color: white;
+  padding: 3px;
+}
+
+.delivery {
+  font-size: 13px;
+}

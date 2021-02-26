@@ -17,8 +17,9 @@ footer {
 .footer__info {
   display: flex;
   justify-content: space-evenly;
-  padding: 40px;
-  line-height: 1.4;
+  padding: 30px;
+  line-height: 1.5;
+  padding-bottom: 45px;
 }
 
 .footer__info a,
@@ -33,6 +34,8 @@ footer {
 }
 .footer__info li {
   list-style-type: none;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .footer__info h4 {
@@ -50,6 +53,7 @@ footer {
 .country {
   width: 70%;
   margin: 0px auto;
+  padding: 10px;
 }
 
 .country li {
@@ -75,6 +79,10 @@ footer {
 }
 .other__services h5 a {
   color: white;
+}
+
+article h5 {
+  font-size: 10px;
 }
 
 .other__services p a {

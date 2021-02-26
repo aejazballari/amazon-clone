@@ -8,7 +8,7 @@ const Footer = () => {
       <section className={styles.info__section}>
         <div className={styles.footer__info}>
           <div>
-            <h4>Get to Know Us</h4>
+            <h3>Get to Know Us</h3>
             <ul>
               <li>
                 <a href="">About Us</a>
@@ -28,7 +28,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4>Connect with Us</h4>
+            <h3>Connect with Us</h3>
             <ul>
               <li>
                 <a href="">Facebook</a>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4>Make Money with Us</h4>
+            <h3>Make Money with Us</h3>
             <ul>
               <li>
                 <a href="">Sell on Amazon</a>
@@ -68,7 +68,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4>Let Us Help You</h4>
+            <h3>Let Us Help You</h3>
             <ul>
               <li>
                 <a href="">COVID-19 and Amazon</a>

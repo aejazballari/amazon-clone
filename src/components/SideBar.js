@@ -1,10 +1,11 @@
 import { FaRegUserCircle } from "react-icons/fa";
 import { AiOutlineRight } from "react-icons/ai";
+import { ImCross } from "react-icons/im";
 import { HiUserCircle } from "react-icons/hi";
 import { MdKeyboardArrowRight, MdKeyboardArrowDown } from "react-icons/md";
 
 import styles from "./sidebar.module.css";
-const SideBar = () => {
+const SideBar = ({ toggle }) => {
   return (
     <main className={styles.sideNav}>
       <div className={styles.sideHeader}>
@@ -113,6 +114,9 @@ const SideBar = () => {
           <li>Customer Service</li>
           <li>Sign In</li>
         </ul>
+      </div>
+      <div className={styles.sideBarClose} onClick={toggle}>
+        <ImCross />
       </div>
     </main>
   );

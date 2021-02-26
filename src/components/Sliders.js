@@ -1,10 +1,9 @@
 import slides from "../data/Slides";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import styles from "./slider.module.css";
-
-const Slider = () => {
+const Sliders = () => {
   return (
-    <section>
+    <section className={styles.slider__section}>
       <div className={styles.btn__container}>
         <button className={styles.left}>
           <BsChevronLeft />
@@ -26,4 +25,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Sliders;

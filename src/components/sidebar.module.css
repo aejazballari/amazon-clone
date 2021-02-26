@@ -1,7 +1,7 @@
 .sideHeader {
   display: flex;
   color: white;
-  padding: 2px 30px;
+  padding: 10px 30px 5px 30px;
   background-color: rgb(35, 47, 62);
 }
 
@@ -12,6 +12,10 @@
 
 .user {
   font-size: 35px;
+}
+
+.category {
+  background-color: white;
 }
 
 .category li {
@@ -32,13 +36,24 @@ li {
 }
 
 h3 {
-  margin-top: 10px;
+  padding-top: 10px;
 }
 .sideNav {
   width: 350px;
   height: 100vh;
   overflow-y: scroll;
   box-shadow: 1px 1px 10px 1000000px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 100;
+}
+
+.sideBarClose {
+  position: absolute;
+  top: 15px;
+  left: 300px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 hr {

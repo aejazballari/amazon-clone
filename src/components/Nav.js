@@ -1,11 +1,15 @@
 import styles from "./nav.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdArrowDropDown } from "react-icons/md";
-const Nav = () => {
+import { useState } from "react";
+const Nav = ({ toggle }) => {
+  console.log(toggle);
+  const [prime, setPrime] = useState(false);
+
   return (
     <nav>
       <ul className={styles.mainNav}>
-        <li className={styles.burgerMenu}>
+        <li className={styles.burgerMenu} onClick={toggle}>
           <div>
             <GiHamburgerMenu />
           </div>
