@@ -6,6 +6,7 @@ import bestCloths from "../data/BestCloths";
 import bestKitchen from "../data/BestKitchen";
 import Recommended from "../data/Recommended";
 import Sliders from "./Sliders";
+import ProductCategory from "./ProductCard"
 import { useEffect, useState } from "react";
 const Home = () => {
   const [timer, setTimer] = useState("");
@@ -31,6 +32,7 @@ const Home = () => {
   return (
     <main>
       <Sliders />
+      <ProductCategory />
       <Card data={data} timer={timer} />
       <ProductCard
         productData={bestCloths}
@@ -49,3 +51,4 @@ const Home = () => {
 };
 
 export default Home;
+

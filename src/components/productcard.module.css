@@ -1,6 +1,8 @@
  .firstrow{
     display: flex;
     margin-left: -14px;
+    margin-top: -300px;
+    position: relative;
 } 
 .proinfo{
     color: gray;
@@ -9,8 +11,9 @@
     padding-bottom: 30px;
     cursor: pointer;
     font-weight: 600;
-    padding-bottom: 19px;
+    padding-bottom: 5px;
     width: 152px;
+    margin-top: 1px;
     
 
 }
@@ -38,10 +41,11 @@
     
 }
 .imageInCard{
-    width: 150px;
+    width: 129px;
     height: 130px;
     padding-right: 20px;
     cursor: pointer;
+    padding-bottom: 20px;
 }
 .atag{
     margin-left: -200px;
@@ -135,7 +139,7 @@
     padding-left: 50px;
 }
 .billimg{
-    width: 275px;
+    width: 255px;
     height: 350px;
     margin-bottom: 5px;
 }
@@ -171,7 +175,7 @@
 }
 .imagere{
     width: 306px;
-    height: 291px;
+    height: 315px;
     margin-left: 2px;
 }
 .div2{
@@ -251,5 +255,15 @@
     padding-bottom: 19px;
     width: 152px;
      
+}
+.proinfo2{
+    color: gray;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    padding-bottom: 1px;
+    width: 152px;
 }
 
