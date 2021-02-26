@@ -1,4 +1,3 @@
-
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Header from "./components/Header";
@@ -20,11 +19,16 @@ function App() {
       {isOpen && <SideBar toggle={toggleMenu} />}
       <div className="App">
         <Switch>
+          <Route path="/product/:id">
+            <Header />
+            <Nav toggle={toggleMenu} />
+            <ProductPage data={productData} />
+            <Footer />
+          </Route>
           <Route path="/category">
             <Header />
             <Nav toggle={toggleMenu} />
             <Category data={productData} />
-
             <Footer />
           </Route>
           <Route path="/">
@@ -36,6 +40,6 @@ function App() {
         </Switch>
       </div>
     </BrowserRouter>
-  )
+  );
 }
 export default App;

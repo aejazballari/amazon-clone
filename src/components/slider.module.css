@@ -41,11 +41,11 @@
 .left {
   text-shadow: 2px 2px white;
 }
-/* 
+
 .slide div {
   animation: slide 20s infinite linear;
   animation-delay: 2s;
-} */
+}
 
 @keyframes slide {
   0% {
