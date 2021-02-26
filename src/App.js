@@ -1,9 +1,12 @@
+
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Header from "./components/Header";
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Category from "./components/Category";
+import ProductCard from "./components/ProductCard";
+import ProductPage from "./components/ProductPage";
 import SideBar from "./components/SideBar";
 import productData from "./data/ProductData";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -33,7 +36,6 @@ function App() {
         </Switch>
       </div>
     </BrowserRouter>
-  );
+  )
 }
-
 export default App;
