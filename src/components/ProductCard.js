@@ -1,6 +1,6 @@
 import React from "react";
 import "./productcard.css";
-
+import {AiOutlineShoppingCart } from "react-icons/ai";
 
 const ThirdCardImages=[
  "https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/BAU/GWPC/XCM_Manual_372x232_1212890_372X232_1_bd034eee_6f06_4e0a_9967_d0e0e5f7f932_jpg_LOWER_QL10_._SY116_CB423376243_.jpg",
@@ -13,8 +13,8 @@ const ThirdCardImages=[
 ]
 const ProductCard=()=>{
     return(
-    <div>
-
+    <div> 
+        <AiOutlineShoppingCart />
       <div className="firstrow">
           {/* first rectangle */}
           <div className="divone">

@@ -1,0 +1,193 @@
+.smallline{
+    color: #565959!important;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: Arial,sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+.overall{
+   display: flex;
+   font-family: "Amazon Ember",Arial,sans-serif;
+}
+.butimg{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+}  
+.chotaimg{
+    margin-bottom: 15px;
+}
+.heroimg{
+    margin-top: 31px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 15px!important;
+    word-break: break-word;
+    line-height: 32px!important;
+    text-rendering: optimizeLegibility;
+    width: 370px;
+    margin-top: 8px;
+    
+}
+.thrddiv{
+    margin-left: 15px;
+}
+.brand{
+    color: blue;
+    font-size: 14px;
+}
+.brand:hover{
+    color: orangered;
+}
+.mamuli{
+    font-size: 14px;
+    color: gray;
+    font-family: Arial,sans-serif;
+   
+}
+.rates{
+    margin-top: 15px;
+}
+.dealprices{
+    display: flex;
+}
+.bigred{
+    color: #B12704!important;
+    font-size: 18px!important;
+    line-height: 24px!important;
+    margin-left: 5px;
+}
+.red{
+    color: #B12704!important;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+}
+.squash{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: gray;
+    font-family: Arial,sans-serif;
+}
+.fir{
+    display: flex;
+    margin-top: 25px;
+}
+.inc{
+    font-size: 14px;
+    color: gray;
+    font-family: Arial,sans-serif;
+    margin-left: 69px;
+    margin-top: 3px;
+}
+.mamulifree{
+    font-size: 14px;
+    color: gray;
+    font-family: Arial,sans-serif;
+    
+}
+.fir1{
+    display: flex;
+    margin-top: 10px; 
+}
+.a{
+    color: blue;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.ab{
+    color: blue;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.border{
+    border: 1px  black;
+    border-style: solid;
+    border-radius: 10px;
+    padding-right: 20px;
+    width: 210px;
+    
+}
+.quality{
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 14px;
+   cursor: pointer;
+   
+}
+.sel{
+    width:40px;
+    height:25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gap{
+    margin-right: 5px;
+}
+.below{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.addbut{
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: #f0c14b;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.buybut{
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: #ed9220;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sec{
+    color: blue;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.lstbut{
+    margin-bottom: 20px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.smalbord{
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.mamu{
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    
+}
+.dot{
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+}
+.fir2{
+    display: flex;
+    
+}
+
+
