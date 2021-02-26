@@ -23,8 +23,9 @@ function App() {
           <Route path="/category">
             <Header />
             <Nav toggle={toggleMenu} />
+            <ProductCard />
             <Category data={productData} />
-
+             
             <Footer />
           </Route>
           <Route path="/">

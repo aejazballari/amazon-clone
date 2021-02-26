@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./productcard.module.css";
-import {AiOutlineShoppingCart } from "react-icons/ai";
+
 
 const ThirdCardImages=[
  "https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/BAU/GWPC/XCM_Manual_372x232_1212890_372X232_1_bd034eee_6f06_4e0a_9967_d0e0e5f7f932_jpg_LOWER_QL10_._SY116_CB423376243_.jpg",
@@ -14,7 +14,6 @@ const ThirdCardImages=[
 const ProductCard=()=>{
     return(
     <div> 
-        <AiOutlineShoppingCart />
       <div className={styles.firstrow}>
           {/* first rectangle */}
           <div className={styles.divone}>
@@ -70,7 +69,7 @@ const ProductCard=()=>{
                 <div className={styles.proimages}>
 
                   <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/BAU/GWPC/XCM_Manual_372x232_1212890_372X232_2_64e793dc_221d_4067_8fca_2f0338879977_jpg_LOWER_QL85_._SY116_CB423376243_.jpg" alt=""className={styles.imageInCard}/>
-                  <p className="proinfo">Home decoration</p>
+                  <p className={styles.proinfo}>Home decoration</p>
                 </div>
             </div>
              
@@ -188,7 +187,7 @@ const ProductCard=()=>{
                <div className={styles.proimages}>
 
                   <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg" alt=""className={styles.imageInCard}/>
-                  <p className={styles.proinfo}>
+                  <p className={styles.proinfo2}>
                  Bedsheets, curtains&more
                   </p>
                  </div>
