@@ -3,7 +3,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdArrowDropDown } from "react-icons/md";
 import { useState } from "react";
 const Nav = ({ toggle }) => {
-  console.log(toggle);
   const [prime, setPrime] = useState(false);
 
   return (

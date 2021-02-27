@@ -6,10 +6,10 @@ import bestCloths from "../data/BestCloths";
 import bestKitchen from "../data/BestKitchen";
 import Recommended from "../data/Recommended";
 import Sliders from "./Sliders";
-import ProductCategory from "./ProductCard"
+import ProductCategory from "./ProductCard";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const Home = () => {
+const Home = ({ itemsInCart }) => {
   const [timer, setTimer] = useState("");
   useEffect(() => {
     const interval = setInterval(() => {
@@ -36,22 +36,22 @@ const Home = () => {
       <ProductCategory />
       <Card data={data} timer={timer} />
       <ProductCard
+        itemsInCart={itemsInCart}
         productData={bestCloths}
         title={"Best Sellers in Clothing & Accessories"}
       />
       <ProductCard
+        itemsInCart={itemsInCart}
         productData={bestKitchen}
         title={"Best Sellers in Home & Kitchen"}
       />
-      <Link to="/category">
-        <ProductCard
-          productData={Recommended}
-          title={"Recommended items other customers often buy again"}
-        />
-      </Link>
+      <ProductCard
+        itemsInCart={itemsInCart}
+        productData={Recommended}
+        title={"Recommended items other customers often buy again"}
+      />
     </main>
   );
 };
 
 export default Home;
-

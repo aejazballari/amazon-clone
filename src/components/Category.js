@@ -2,19 +2,17 @@ import styles from "./category.module.css";
 import { Link, Route } from "react-router-dom";
 
 const Category = (props) => {
-  console.log(props);
   const { data } = props;
-  const getId = (id) => {
-    console.log(id);
-  };
-  console.log(data);
   return (
     <div className={styles.category}>
       <section className={styles.category__section}>
         {data.map((item) => {
           return (
-            <div key={item.id} onClick={() => getId(item.id)}>
-              <Link to={`/product/${item.id}`}>
+            <div key={item.id}>
+              <Link
+                to={`/product/${item.id}`}
+                style={{ textDecoration: "none" }}
+              >
                 <div className={styles.categoryImg__div}>
                   <img src={item.img} alt="" className={styles.category__img} />
                 </div>

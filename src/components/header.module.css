@@ -78,12 +78,25 @@ input {
 .sign__in,
 .cart {
   display: flex;
+  position: relative;
 }
 
-.cart span {
+.cartIcon {
   font-size: 40px;
 }
 
 .cart h4 {
   padding-top: 20px;
+}
+
+.count {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(245, 131, 37);
+  position: absolute;
+  top: -3px;
+  left: 13px;
+  padding: 0px 3px;
+  display: inline-block;
+  background-color: black;
 }

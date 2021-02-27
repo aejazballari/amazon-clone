@@ -1,12 +1,12 @@
 import styles from "./header.module.css";
 import { MdAddShoppingCart } from "react-icons/md";
 import { FaMapMarkerAlt, FaSearch, FaAngleDown } from "react-icons/fa";
-
-const Header = () => {
+import { Link } from "react-router-dom";
+const Header = ({ itemsAdded }) => {
   return (
     <header className={styles.header__div}>
       <div className={styles.logo}>
-        <a href="#">
+        <Link to="/">
           <span>
             <img
               src="https://www.bizmonthly.com/wp-content/uploads/2020/04/Amazon-logo-black-template.png"
@@ -14,7 +14,7 @@ const Header = () => {
             ></img>
           </span>
           <span className={styles.in}>.in</span>
-        </a>
+        </Link>
       </div>
       <div className={styles.address}>
         <span className={styles.location}>
@@ -56,12 +56,16 @@ const Header = () => {
         <span>Returns</span>
         <h4>& Orders</h4>
       </div>
-      <div className={styles.cart}>
-        <span>
-          <MdAddShoppingCart />
-        </span>
-        <h4>Cart</h4>
-      </div>
+
+      <Link to="/checkout" style={{ textDecoration: "none", color: "white" }}>
+        <div className={styles.cart}>
+          <span className={styles.count}>{itemsAdded.length}</span>
+          <span className={styles.cartIcon}>
+            <MdAddShoppingCart />
+          </span>
+          <h4>Cart</h4>
+        </div>
+      </Link>
     </header>
   );
 };

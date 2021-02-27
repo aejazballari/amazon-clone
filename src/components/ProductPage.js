@@ -2,14 +2,13 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import styles from "./ProductPage.module.css";
 
-const ProductPage = ({ data }) => {
+const ProductPage = ({ data, itemsInCart }) => {
   const { id } = useParams();
   const item = () => {
     return data.filter((el) => (el.id === id ? el : null));
   };
 
   const product = item();
-  console.log(product);
   return (
     <section>
       {product.map((item) => {
@@ -94,7 +93,12 @@ const ProductPage = ({ data }) => {
                     </form>
                   </div>
                   <div className={styles.below}>
-                    <button className={styles.addbut}>Add to Cart</button>
+                    <button
+                      className={styles.addbut}
+                      onClick={() => itemsInCart(item)}
+                    >
+                      Add to Cart
+                    </button>
                     <button className={styles.buybut}>Buy Now</button>
 
                     <a className={styles.sec}>Secure transaction </a>
