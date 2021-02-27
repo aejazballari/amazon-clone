@@ -8,6 +8,7 @@ import Recommended from "../data/Recommended";
 import Sliders from "./Sliders";
 import ProductCategory from "./ProductCard"
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 const Home = () => {
   const [timer, setTimer] = useState("");
   useEffect(() => {
@@ -42,10 +43,12 @@ const Home = () => {
         productData={bestKitchen}
         title={"Best Sellers in Home & Kitchen"}
       />
-      <ProductCard
-        productData={Recommended}
-        title={"Recommended items other customers often buy again"}
-      />
+      <Link to="/category">
+        <ProductCard
+          productData={Recommended}
+          title={"Recommended items other customers often buy again"}
+        />
+      </Link>
     </main>
   );
 };
