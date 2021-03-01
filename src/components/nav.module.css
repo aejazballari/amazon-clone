@@ -1,17 +1,17 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  /* padding: 2px 10px; */
   background-color: rgb(35, 47, 63);
   color: white;
-  font-size: 16px;
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 .mainNav {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  padding: 3px;
+  width: 75%;
 }
 
 .mainNav,
@@ -21,16 +21,12 @@ nav {
 }
 
 .mainNav li {
-  padding: 5px 10px;
-}
-
-ul {
-  list-style: none;
-  margin-top: 5px;
+  padding: 5px 10px 0px 10px;
+  margin: 1px;
 }
 
 .mainNav li:hover,
-.app:hover {
+.appImg:hover {
   border: 0.1px solid white;
   cursor: pointer;
   border-radius: 2px;
@@ -43,10 +39,6 @@ ul {
   margin-top: -1px;
 }
 
-.app img {
-  height: 38px;
-}
-
 .burgerMenu {
   font-weight: bold;
 }
@@ -54,4 +46,13 @@ ul {
 .arrows {
   color: rgb(167, 172, 178);
   font-size: 20px;
+}
+
+.app {
+  margin: -10px 0px;
+  padding: 1px;
+}
+
+.appImg {
+  width: 350px;
 }

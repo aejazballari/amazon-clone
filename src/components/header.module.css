@@ -3,38 +3,50 @@
   justify-content: space-evenly;
   background-color: black;
   color: white;
-  padding-top: 13px;
+  padding: 14px 5px 0px 0px;
 }
 
 .amazon__logo {
   width: 100px;
 }
 
-.logo a {
-  text-decoration: none;
-  color: black;
+.logo {
+  margin-top: -10px;
 }
 
 .logo a {
   display: flex;
   position: relative;
   color: white;
-  width: 132px;
+  width: 130px;
+}
+
+.upperText {
+  font-size: 11px;
+  color: lightgrey;
+  font-weight: bold;
+}
+
+.header__div h4 {
+  font-size: 14px;
 }
 
 .in {
   padding-top: 10px;
   position: absolute;
-  right: 18px;
-  font-size: 18px;
+  left: 110px;
+  top: 10px;
+  font-size: 14px;
 }
 
 .address {
   display: flex;
+  position: relative;
 }
 
 .location {
-  padding-top: 18px;
+  position: relative;
+  top: 16px;
 }
 
 .input__div {
@@ -73,8 +85,15 @@ input {
 
 .country {
   display: flex;
+  width: 50px;
+  margin-bottom: 20px;
+  position: relative;
 }
 
+.flag {
+  width: 20px;
+  height: 15px;
+}
 .sign__in,
 .cart {
   display: flex;
@@ -99,4 +118,21 @@ input {
   padding: 0px 3px;
   display: inline-block;
   background-color: black;
+}
+
+.country span {
+  font-size: 20px;
+  color: lightgrey;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  /* left: 5px; */
+}
+
+.dropDown {
+  font-size: 20px;
+  color: lightgrey;
+  position: absolute;
+  right: -15px;
+  bottom: 15px;
 }

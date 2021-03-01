@@ -30,7 +30,7 @@ function App() {
           <Route path="/checkout">
             <Header itemsAdded={itemsAdded} />
             <Nav toggle={toggleMenu} />
-            <CheckOut itemsAdded={itemsAdded} data={productData} />
+            <CheckOut itemsAdded={itemsAdded} />
             <Footer />
           </Route>
           <Route path="/product/:id">

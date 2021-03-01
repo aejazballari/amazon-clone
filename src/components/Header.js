@@ -1,6 +1,7 @@
 import styles from "./header.module.css";
 import { MdAddShoppingCart } from "react-icons/md";
 import { FaMapMarkerAlt, FaSearch, FaAngleDown } from "react-icons/fa";
+import { MdArrowDropDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 const Header = ({ itemsAdded }) => {
   return (
@@ -9,7 +10,7 @@ const Header = ({ itemsAdded }) => {
         <Link to="/">
           <span>
             <img
-              src="https://www.bizmonthly.com/wp-content/uploads/2020/04/Amazon-logo-black-template.png"
+              src="https://cdn-news.warriortrading.com/wp-content/uploads/2016/01/19183234/AMZN-Logo.jpg"
               className={styles.amazon__logo}
             ></img>
           </span>
@@ -21,7 +22,7 @@ const Header = ({ itemsAdded }) => {
           <FaMapMarkerAlt />
         </span>
         <div>
-          <span>Hello</span>
+          <span className={styles.upperText}>Hello</span>
           <h4>Select your address</h4>
         </div>
       </div>
@@ -29,7 +30,7 @@ const Header = ({ itemsAdded }) => {
         <button>
           All
           <span>
-            <FaAngleDown />
+            <MdArrowDropDown />
           </span>
         </button>
         <input></input>
@@ -38,22 +39,25 @@ const Header = ({ itemsAdded }) => {
         </div>
       </div>
       <div className={styles.country}>
-        <img src="https://en.wikipedia.org/wiki/Flag_of_India#/media/File:Flag_of_India.svg"></img>
+        <img
+          src="https://seeklogo.com/images/I/Indian_Flag-logo-19B702FA68-seeklogo.com.png"
+          className={styles.flag}
+        ></img>
         <span>
-          <FaAngleDown />
+          <MdArrowDropDown />
         </span>
       </div>
       <div className={styles.sign__in}>
         <div>
-          <span>Hello, Sign in</span>
+          <span className={styles.upperText}>Hello, Sign in</span>
           <h4>Account & Lists</h4>
         </div>
-        <span>
-          <FaAngleDown />
+        <span className={styles.dropDown}>
+          <MdArrowDropDown />
         </span>
       </div>
       <div>
-        <span>Returns</span>
+        <span className={styles.upperText}>Returns</span>
         <h4>& Orders</h4>
       </div>
 

@@ -34,12 +34,12 @@ footer {
 }
 .footer__info li {
   list-style-type: none;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
 }
 
-.footer__info h4 {
-  margin-left: 30px;
+.footer__info h3 {
+  font-size: 15px;
 }
 
 .info__section {
@@ -48,10 +48,11 @@ footer {
 
 .footer__countries ul {
   display: flex;
+  justify-content: center;
 }
 
 .country {
-  width: 70%;
+  width: 87%;
   margin: 0px auto;
   padding: 10px;
 }
@@ -59,11 +60,12 @@ footer {
 .country li {
   margin-left: 0px;
   padding-left: 0px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .other__services {
   background-color: rgb(19, 26, 34);
+  line-height: 0.8;
 }
 
 .other__services article {
@@ -74,7 +76,7 @@ footer {
 }
 
 .other__services article div {
-  width: 100px;
+  width: 110px;
   margin: 20px 50px;
 }
 .other__services h5 a {

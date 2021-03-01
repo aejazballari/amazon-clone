@@ -33,6 +33,7 @@ const Nav = ({ toggle }) => {
         <img
           src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/MAI/Sweepstakes/June20/SWM_DownloadApp._CB410314483_.jpg"
           alt="app"
+          className={styles.appImg}
         />
       </div>
     </nav>
