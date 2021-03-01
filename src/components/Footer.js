@@ -2,7 +2,10 @@ import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <footer>
-      <section className={styles.toTop}>
+      <section
+        className={styles.toTop}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
         <p>Back to top</p>
       </section>
       <section className={styles.info__section}>

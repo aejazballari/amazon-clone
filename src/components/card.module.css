@@ -1,8 +1,9 @@
 .productCard {
-  overflow-x: scroll;
+  overflow-x: hidden;
   padding: 15px;
   margin: 20px;
   background-color: white;
+  position: relative;
 }
 .items {
   display: flex;
@@ -44,13 +45,26 @@
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
-  /* visibility: hidden; */
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+.btn__container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100px;
+  width: 98%;
+}
 
-.productCard div:hover {
-  /* overflow-x: scroll; */
+.btn {
+  height: 80px;
+  min-width: 15px !important;
+  background-color: white;
+}
+
+.items:hover {
+  overflow-x: scroll;
+}
+
+.hide {
+  display: none;
 }

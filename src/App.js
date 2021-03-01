@@ -42,13 +42,13 @@ function App() {
           <Route path="/category">
             <Header itemsAdded={itemsAdded} />
             <Nav toggle={toggleMenu} />
-            <Category data={productData} itemsInCart={itemsInCart} />
+            <Category data={productData} />
             <Footer />
           </Route>
           <Route path="/">
             <Header itemsAdded={itemsAdded} />
             <Nav toggle={toggleMenu} />
-            <Home itemsInCart={itemsInCart} />
+            <Home />
             <Footer />
           </Route>
         </Switch>

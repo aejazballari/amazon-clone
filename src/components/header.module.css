@@ -4,6 +4,7 @@
   background-color: black;
   color: white;
   padding: 14px 5px 0px 0px;
+  position: sticky;
 }
 
 .amazon__logo {

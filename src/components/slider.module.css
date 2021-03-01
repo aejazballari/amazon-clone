@@ -43,7 +43,7 @@
 }
 
 .slide div {
-  animation: slide 20s infinite linear;
+  animation: slide 20s linear;
   animation-delay: 2s;
 }
 

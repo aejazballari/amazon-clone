@@ -9,7 +9,7 @@ import Sliders from "./Sliders";
 import ProductCategory from "./ProductCard";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const Home = ({ itemsInCart }) => {
+const Home = () => {
   const [timer, setTimer] = useState("");
   useEffect(() => {
     const interval = setInterval(() => {
@@ -36,17 +36,14 @@ const Home = ({ itemsInCart }) => {
       <ProductCategory />
       <Card data={data} timer={timer} />
       <ProductCard
-        itemsInCart={itemsInCart}
         productData={bestCloths}
         title={"Best Sellers in Clothing & Accessories"}
       />
       <ProductCard
-        itemsInCart={itemsInCart}
         productData={bestKitchen}
         title={"Best Sellers in Home & Kitchen"}
       />
       <ProductCard
-        itemsInCart={itemsInCart}
         productData={Recommended}
         title={"Recommended items other customers often buy again"}
       />
