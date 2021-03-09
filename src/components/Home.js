@@ -27,7 +27,6 @@ const Home = () => {
     }, 1000);
     return () => {
       clearInterval(interval);
-      // <h1>`${hours}`</h1>;
     };
   }, []);
   return (

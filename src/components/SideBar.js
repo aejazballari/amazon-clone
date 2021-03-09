@@ -3,17 +3,20 @@ import { AiOutlineRight } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { HiUserCircle } from "react-icons/hi";
 import { MdKeyboardArrowRight, MdKeyboardArrowDown } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 import styles from "./sidebar.module.css";
 const SideBar = ({ toggle }) => {
   return (
     <main className={styles.sideNav}>
-      <div className={styles.sideHeader}>
-        <div className={styles.user}>
-          <HiUserCircle />
+      <Link to="/signin">
+        <div className={styles.sideHeader}>
+          <div className={styles.user}>
+            <HiUserCircle />
+          </div>
+          <h2>Hello, Sign in</h2>
         </div>
-        <h2>Hello, Sign in</h2>
-      </div>
+      </Link>
       <div className={styles.category}>
         <h3>Trending</h3>
         <ul>

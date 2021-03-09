@@ -9,6 +9,7 @@ import CheckOut from "./components/CheckOut";
 import ProductPage from "./components/ProductPage";
 import SideBar from "./components/SideBar";
 import productData from "./data/ProductData";
+import SignIn from "./components/SignIn";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,9 @@ function App() {
       {isOpen && <SideBar toggle={toggleMenu} />}
       <div className="App">
         <Switch>
+          <Route path="/SignIn">
+            <SignIn />
+          </Route>
           <Route path="/checkout">
             <Header itemsAdded={itemsAdded} />
             <Nav toggle={toggleMenu} />

@@ -1,0 +1,106 @@
+.continue__btn {
+  background: linear-gradient(
+    rgb(255, 232, 170),
+    rgb(242, 202, 104),
+    rgb(242, 202, 104),
+    rgb(242, 202, 104)
+  );
+  /* background-color: rgb(242, 202, 104) !important; */
+  border: 1px solid rgb(242, 202, 104) !important;
+}
+
+.signin__section {
+  background-color: white;
+  height: 100vh;
+}
+
+.signin__maindiv {
+  width: 27%;
+  margin: 0px auto;
+}
+
+.signin__amazon {
+  width: 105px;
+}
+
+.signin__amazonLogo {
+  position: relative;
+  padding-top: 10px;
+  width: 150px;
+  margin: 0px auto;
+}
+
+.signin__amazonLogo span {
+  position: absolute;
+  top: 27px;
+  right: 16px;
+}
+
+.signin__content {
+  border: 1px solid lightgrey;
+  padding: 25px;
+}
+
+.signin__content h1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.signin__content label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.signin__content input {
+  height: 30px;
+  margin: 5px 0px;
+  border: 1px solid lightgrey;
+  padding: 5px !important;
+}
+
+.continue__btn {
+  font-size: 13px !important;
+  width: 100%;
+  text-transform: capitalize !important;
+  margin: 10px 0px !important;
+}
+
+.signin__content p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.signin__new {
+  margin: 20px auto;
+  position: relative;
+}
+
+.signin__new p {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: -6px;
+  left: 35%;
+  text-align: center;
+  width: 110px;
+  background-color: white;
+  padding: 0px 5px;
+}
+
+.signin__new hr {
+  height: 0.1px;
+}
+
+.SignIn__create {
+  width: 100% !important;
+  font-size: 13px !important;
+  text-transform: capitalize !important;
+  background: linear-gradient(
+    rgb(243, 243, 243),
+    rgb(224, 224, 224),
+    rgb(224, 224, 224),
+    rgb(224, 224, 224)
+  );
+  border: 1px solid rgb(224, 224, 224) !important;
+}

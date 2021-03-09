@@ -1,10 +1,15 @@
 import styles from "./category.module.css";
 import { Link, Route } from "react-router-dom";
+import { useRef, useEffect } from "react";
 
 const Category = (props) => {
+  const toTop = useRef(null);
   const { data } = props;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
-    <div className={styles.category}>
+    <div className={styles.category} ref={toTop}>
       <section className={styles.category__section}>
         {data.map((item) => {
           return (

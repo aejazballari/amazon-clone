@@ -3,6 +3,7 @@
   color: white;
   padding: 10px 30px 5px 30px;
   background-color: rgb(35, 47, 62);
+  cursor: pointer;
 }
 
 .sideHeader h2 {
@@ -44,7 +45,7 @@ h3 {
   overflow-y: scroll;
   box-shadow: 1px 1px 10px 1000000px rgba(0, 0, 0, 0.4);
   position: fixed;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .sideBarClose {
